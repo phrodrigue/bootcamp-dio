@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background-color: rgba(0, 217, 255, 0.186);
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+}
+
+hr {
+    border-color: rgba(114, 107, 255, 0.1);
+}
+
+#new-task {
+    margin: 20px auto;
+}
+
+input[type=text] {
+    width: 40%;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 3px 5px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgba(114, 107, 255, 0.385);
+    padding: 3px 15px;
+}
+
+#tasks {
+    max-width: 70%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: justify;
+}
+
+li {
+    margin: 5px;
+    padding: 5px 15px;
+    border: 1px rgba(114, 107, 255, 0.17) solid;
+    border-radius: 10px;
+}
+
+input:checked ~ label {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5);
+}
